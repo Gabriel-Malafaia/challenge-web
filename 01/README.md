@@ -52,8 +52,7 @@ During the evaluation process, we value the importance of:
 - **Responsiveness** layout adapts to different screen sizes.
 - **Accessibility principles** content is accessible to all users.
 - **SEO best practices** appropriate tags, alt attributes for images, others.
-
-⚠️ Agility, speed, and maintaining quality in delivering the solution will be a differentiating factor. We will evaluate the candidates based on their `ability to deliver` the solution promptly while ensuring the highest level of quality.
+- **❗ Differentiating factor** will evaluate the candidates based on their `ability to deliver` the solution promptly while ensuring the highest level of quality.
 
 
 ## 🏆 Guidelines
