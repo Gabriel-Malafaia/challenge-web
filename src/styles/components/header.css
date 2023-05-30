@@ -1,0 +1,31 @@
+h1 {
+  font-size: var(--font-title-1);
+  font-weight: var(--font-weight-1);
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__title img {
+  width: 3rem;
+}
+
+.header__classification {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__classification > p:not(:last-child) {
+  border-right: 1px solid var(--color-grey-5);
+  padding: 0.3rem 1rem 0.3rem 0;
+}
+
+.header__person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
