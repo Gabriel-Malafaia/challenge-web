@@ -1,7 +1,7 @@
 <h1 align="center"> Landing Page </h1>
 
 <p align="center">
-#challenge-web are development assessment challenges promoted by Juca.dev to identify professionals in web technologies. <br/>
+#challengeWeb are development assessment challenges promoted by Juca.dev to identify professionals in web technologies. <br/>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@ You can view the section layout through [THIS LINK](https://www.figma.com/file/y
 The responsive layout of the project through the links below:
 - [400px (min)](.github/preview-400.png)
 - [640px](.github/preview-640.png)
-- [728px](.github/preview-728.png)
+- [768px](.github/preview-768.png)
 - [1024px](.github/preview-1024.png)
 - [1280px](.github/preview-1280.png)
 - [1536px](.github/preview-1536.png)
@@ -47,13 +47,13 @@ The responsive layout of the project through the links below:
 ## 💡 Tips
 
 During the evaluation process, we value the importance of:
-- **Clean coding** consistent indentation, class, ID naming conventions and code organization
+- **Clean coding** consistent indentation, class, ID naming conventions and code organization.
 - **Semantic structure** HTML tags, such as `<header>`, `<nav>`, `<section>`, `<footer>`, to provide a clear and meaningful structure to the content.
 - **Responsiveness** layout adapts to different screen sizes.
 - **Accessibility principles** content is accessible to all users.
 - **SEO best practices** appropriate tags, alt attributes for images, others.
 
-It contributes to more efficient, maintainable, and accessible development. We wish you success in our evaluation and look forward to seeing your skills in these aspects.
+⚠️ Agility, speed, and maintaining quality in delivering the solution will be a differentiating factor. We will evaluate the candidates based on their `ability to deliver` the solution promptly while ensuring the highest level of quality.
 
 
 ## 🏆 Guidelines

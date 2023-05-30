@@ -1,7 +1,7 @@
-# #challenge-web
+# #challengeWeb
 
 <p align="center">
-    Projects #challenge-web by [Juca.dev](https://juca.dev) <br>
+    Projects #challengeWeb by Juca.dev <br>
     <br><table>
     <thead>
         <tr>
