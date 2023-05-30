@@ -74,4 +74,4 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations (EULA).
 
 ---
 
-Made with com ♥ by [Juca.dev](https://juca.dev) :wave:
+Made with ♥ by [Juca.dev](https://juca.dev) :wave:
