@@ -1,0 +1,21 @@
+.c-sendBy {
+  color: var(--color-grey-2);
+  font-size: var(--font-text-1);
+  font-weight: var(--font-weight-1);
+}
+
+.c-sendBy > span {
+  color: var(--color-grey-4);
+  font-size: var(--font-text-2);
+  font-weight: var(--font-weight-4);
+}
+
+.c-sendBy.white {
+  color: var(--color-grey-7);
+}
+
+.c-sendBy.white > span {
+  color: var(--color-grey-7);
+  font-size: var(--font-text-2);
+  font-weight: var(--font-weight-4);
+}

@@ -9,9 +9,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+
 :root {
   /* Colors */
   --color-pink: #f529e4;
+  --color-pink-2: #f754e9;
+  --color-pink-3: #fee9fc;
   --color-yellow: #facc15;
 
   /* Grey Scale */
@@ -25,6 +28,7 @@ body {
 
   /* Titles sizes */
   --font-title-0: 4rem;
+  --font-title-0-md: 3rem;
   --font-title-1: 1.75rem;
   --font-title-2: 1.25rem;
   --font-title-3: 1.125rem;
@@ -46,3 +50,4 @@ body {
   --radius2: 0.563rem;
   --radius3: 0.375rem;
 }
+

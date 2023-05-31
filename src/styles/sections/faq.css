@@ -1,0 +1,11 @@
+.faq {
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.faq > ul > li {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

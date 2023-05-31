@@ -1,0 +1,12 @@
+.note-person {
+  background-color: white;
+  padding: 1rem;
+  border-radius: var(--radius1);
+  min-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .note-person {
+    width: 100%;
+  }
+}

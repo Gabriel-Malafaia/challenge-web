@@ -1,0 +1,64 @@
+/* Titles Texts */
+
+.c-text-title {
+  font-weight: 800;
+}
+
+.c-text-title.large {
+  font-size: var(--font-title-0);
+}
+
+.c-text-title.medium {
+  font-weight: 800;
+  font-size: var(--font-title-0-md);
+}
+
+.c-text-title.small {
+  font-weight: 800;
+  font-size: var(--font-title-1);
+}
+
+/* Normal Texts */
+
+.c-text-normal {
+  font-weight: var(--font-weight-3);
+  font-size: var(--font-title-3);
+  color: var(--color-grey-4);
+}
+
+.c-text-normal.small {
+  font-size: var(--font-title-4);
+}
+
+.c-text-normal.extraSmall {
+  font-size: var(--font-text-2);
+}
+
+/* Normal Texts - Color Variant */
+
+.c-text-normal.black {
+  font-weight: var(--font-weight-2);
+  color: var(--color-grey-1);
+}
+
+/* Ordering */
+
+.c-text-center {
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  .c-text-title.large {
+    font-size: var(--font-title-0-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .c-text-title.large {
+    font-size: var(--font-title-1);
+  }
+
+  .c-text-title.medium {
+    font-size: var(--font-title-1);
+  }
+}

@@ -1,0 +1,40 @@
+h1 {
+  font-size: var(--font-title-1);
+  font-weight: var(--font-weight-1);
+}
+
+.s-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.s-header-title > img {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(326deg) brightness(99%)
+    contrast(102%);
+  width: 3rem;
+}
+
+.s-header-classification {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.s-header-classification > p:not(:last-child) {
+  border-right: 1px solid var(--color-grey-5);
+  padding: 0.3rem 1rem 0.3rem 0;
+}
+
+.s-header-person {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+@media (max-width: 1080px) {
+  .c-header-responsible > h2 {
+    font-size: 1rem !important;
+  }
+}
+

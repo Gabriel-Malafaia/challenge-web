@@ -1,0 +1,133 @@
+/* Containers Flex */
+
+.c-container-flex {
+  display: flex;
+}
+
+.c-container-flex.align-center {
+  align-items: center;
+}
+
+.c-container-flex.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.c-container-flex.between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-container-flex.text {
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 4rem 0 6rem;
+  width: 40%;
+}
+
+.c-container-flex.text.right {
+  padding: unset;
+}
+
+.c-container-flex.text.left {
+  width: 35%;
+}
+
+.c-container-flex.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 70%;
+}
+
+.c-container-flex.fullSize {
+  max-width: unset;
+}
+
+.c-container-flex.pink {
+  background-color: var(--color-pink-2);
+  color: white;
+  padding: 8rem;
+}
+
+.c-container-flex.pinkLight {
+  background-color: var(--color-pink-3);
+  padding: 8rem;
+}
+
+.c-container-flex.limited {
+  max-width: 720px;
+  width: 100%;
+}
+
+.c-container-person.normal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c-container-person.normal > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 1050px) {
+  .c-container-flex.text {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  .c-container-flex.text.left {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-container-flex {
+    padding: 1rem;
+  }
+
+  .c-responsible {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-responsible-inverted {
+    flex-direction: column-reverse;
+  }
+
+  .c-image-section.small.left {
+    width: 95%;
+    padding: unset;
+    margin-left: -3rem;
+    margin-top: 3rem;
+    height: 320px;
+    overflow-y: hidden;
+  }
+
+  .c-container-flex.pink,
+  .c-container-flex.pinkLight {
+    padding: 1rem;
+  }
+
+  .c-image-section.small.right,
+  .c-image-section.large.right {
+    width: 95%;
+    margin-right: -3rem;
+    margin-top: 3rem;
+    height: 320px;
+    overflow-y: hidden;
+  }
+
+  .c-image-section.small.right img,
+  .c-image-section.large.right img {
+    width: 100%;
+  }
+
+
+  .c-container-flex.text,
+  .c-container-flex.text.left {
+    width: 95%;
+  }
+}

@@ -1,0 +1,43 @@
+/* Avatar Images */
+
+.c-image-avatar {
+  border: 2px solid var(--color-pink);
+  border-radius: 50%;
+}
+
+.c-image-avatar.small {
+  width: 2.5rem;
+}
+
+.c-image-avatar.large {
+  width: 3rem;
+}
+
+.c-image-avatar.white {
+  border-color: var(--color-grey-7);
+}
+
+/* Section Images */
+
+.c-image-section {
+  position: relative;
+  width: 40%;
+  overflow-x: hidden;
+}
+
+.c-image-section.small > img {
+  width: 100%;
+  height: 420px;
+}
+
+.c-image-section.small.left > img {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.c-image-section.small.right > img {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.c-image-section.large.right > img {
+  border-radius: 1rem 0 0 1rem;
+}

@@ -1,0 +1,66 @@
+.reinforcing {
+  position: relative;
+  text-align: center;
+  padding: 4rem;
+}
+
+.reinforcing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(243, 243, 243, 0.5);
+  border-radius: 10px 0 0 10px;
+}
+
+.points {
+  filter: invert(79%) sepia(5%) saturate(403%) hue-rotate(182deg)
+    brightness(95%) contrast(85%);
+  position: absolute;
+  top: 25px;
+  right: 30%;
+  z-index: -1;
+}
+
+.reinforcing__centered {
+  position: relative;
+  border-radius: var(--radius1);
+  border: 2px solid var(--color-pink);
+  padding: 8rem;
+  gap: 3rem;
+  background-color: white;
+}
+
+.reinforcing__centered > button {
+  z-index: 1;
+}
+
+.reinforcing__centered--images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.fold__image {
+  position: absolute;
+  bottom: 0;
+  filter: invert(90%) sepia(5%) saturate(1321%) hue-rotate(245deg)
+    brightness(106%) contrast(99%);
+  border-radius: 10px;
+}
+
+.fold__image.inverted {
+  transform: scaleX(-1);
+  filter: invert(85%) sepia(5%) saturate(1321%) hue-rotate(245deg)
+    brightness(106%) contrast(99%);
+}
+
+@media (max-width: 768px) {
+  .reinforcing__centered--images {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
